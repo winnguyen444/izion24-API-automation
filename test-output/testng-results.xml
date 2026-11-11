@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-11T16:20:22 ICT" name="Default suite" finished-at="2026-11-11T16:20:26 ICT" duration-ms="4094">
+    <groups>
+    </groups>
+    <test started-at="2026-11-11T16:20:22 ICT" name="Default test" finished-at="2026-11-11T16:20:26 ICT" duration-ms="4094">
+      <class name="demoApi.IZIon24Payment">
+        <test-method is-config="true" signature="LoginGetToken()[pri:0, instance:demoApi.IZIon24Payment@75db5df9]" started-at="2026-11-11T16:20:22 ICT" name="LoginGetToken" finished-at="2026-11-11T16:20:25 ICT" duration-ms="2892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginGetToken -->
+        <test-method signature="getBillAndPayment(java.lang.String)[pri:0, instance:demoApi.IZIon24Payment@75db5df9]" started-at="2026-11-11T16:20:25 ICT" name="getBillAndPayment" data-provider="billIds" finished-at="2026-11-11T16:20:26 ICT" duration-ms="1158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[STG20252350]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBillAndPayment -->
+      </class> <!-- demoApi.IZIon24Payment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
